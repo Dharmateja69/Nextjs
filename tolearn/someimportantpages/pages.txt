@@ -1,0 +1,37 @@
+
+
+
+Page.tsx:
+This file represents a regular page in your
+app. It contains the Ul and logic for what
+users will see when they visit a specific
+route in your application
+
+
+
+Layout.tsx:
+This file acts as a that surrounds wrapper
+your page content. So, any layout-related
+things (like headers, footers, navigation bars)
+are included here.
+
+
+Template.tsx:
+Templates are like layouts because they're
+used on multiple pages in your app. When a
+user moves between pages, that use the same
+template, it resets everything and starts fresh.
+
+
+Not-Found.tsx:
+where a page doesnot exisits.
+
+
+Loading.tsx:
+This file is shown while your app is waiting for
+data or components to load. ( fetching data
+or loading a large page
+
+
+
+Error.tsx

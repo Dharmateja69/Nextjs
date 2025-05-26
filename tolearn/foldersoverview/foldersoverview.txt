@@ -1,0 +1,30 @@
+public:Contains static files like images, fonts, or icons.
+
+src:This is the main source code folder where your
+application lives. All your components, pages, and logic
+will usually go here.
+
+gitignore:Specifies which files and folders Git should ignore ( node_modules, .next ).
+
+eslint.config.mjs:Configuration file for ESLint, which helps enforce code quality and
+consistency.
+
+next-env.d.ts->A TypeScript declaration file that helps Next.js understand specific types
+used internally, like environment variables or file imports.
+
+next.config.ts:Configuration file for Next.js where you can tweak various settings like
+redirects, rewrites, and more.
+
+package-lock.json:locks down the exact versions of dependencies to ensure consistency
+across different environments.
+
+package-json:holds your project's dependencies and metadata (like name, version,
+scripts).
+
+postcss.config.mjs:Configuration file for PostCSS, which helps you process CSS (Tailwind or autoprefixing).
+
+tailwind.config.ts:Configuration file for Tailwind CSS, where you can define your custom
+styles, colors, and other settings.
+
+tsconfig.json:Configuration file for TypeScript, defining how TypeScript should
+behave in your project.
