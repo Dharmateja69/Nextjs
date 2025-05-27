@@ -1,8 +1,5 @@
-"use client";
-import { withAuth } from "../Auth/page";
-
-const dashbaard = () => {
-  return <div>dashbaard</div>;
+const page = () => {
+  return <div>page</div>;
 };
 
-export default withAuth(dashbaard);
+export default page;
